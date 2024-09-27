@@ -1,0 +1,92 @@
+.container {
+  width: 600px;
+  height: fit-content;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #007bff;
+  box-shadow: 10px 0px 20px #007bff;
+}
+
+.container_form {
+  margin-bottom: 20px;
+}
+
+.heading {
+  text-align: center;
+  color: rgb(83, 83, 160);
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-size: 26px;
+}
+
+.word {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.searchButton {
+  align-self: center;
+  width: 200px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.searchButton:hover {
+  background-color: #0056b3;
+}
+
+.error1,
+.error2 {
+  color: #ff4d4d;
+  background-color: #ffe6e6;
+  padding: 10px;
+  border: 1px solid #ff4d4d;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 16px;
+  color: black;
+}
+
+.data {
+  margin-top: 20px;
+}
+
+.partOfSpeach {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.definition {
+  color: #333;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.audio {
+  margin-top: 20px;
+  width: 100%;
+}
